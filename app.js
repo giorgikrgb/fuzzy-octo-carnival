@@ -6,16 +6,23 @@ let number = 25;
 
 let isStudent = true;
 
-let notDefined;
-console.log(notDefined);
+let undefinedVariable;
+
+let nullVariable = null;    
+
+console.log("Text:", text);
+console.log("Number:", number);
+console.log("Is Student:", isStudent);
+console.log("Undefined Variable:", undefinedVariable);
+console.log("Null Variable:", nullVariable);    
 
 let name = "Giorgi";
 let dayOfWeek = "Friday";
-let favoriteActivity = "coding";
+let favoriteActivity = "sleeping";
 
-let emptyValue = null;
 
 let sentence1 = "Hi, my name is " + name + "! Today is " + dayOfWeek + ", a perfect day for " + favoriteActivity + ".";
 console.log(sentence1);
+
 let sentence2 = `Hi, my name is ${name}! Today is ${dayOfWeek}, a perfect day for ${favoriteActivity}.`;
 console.log(sentence2);
